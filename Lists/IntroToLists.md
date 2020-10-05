@@ -21,43 +21,43 @@
 	33.2  
 	```
 
-1. head: Returns the head (1st element) of the list
+1. *head*: Returns the head (1st element) of the list
 	```
 	ghci> head [5,4,3,2,1]
 	5
 	```
 	
-2. tail: chops of the head and returns rest of elemets
+2. *tail*: chops of the head and returns rest of elemets
 	```
 	ghci> last [5,4,3,2,1]  
 	1
 	```
 	
-3. last: takes a list and returns the last element
+3. *last*: takes a list and returns the last element
 	```
 	ghci> head [5,4,3,2,1]  
 	5   
 	```
 	
-4. init: takes a list and return everything but the last element
+4. *init*: takes a list and return everything but the last element
 	```
 	ghci> init [5,4,3,2,1]  
 	[5,4,3,2]  
 	```
 	
-5. length: gives length of the string
+5. *length*: gives length of the string
 	```
 	ghci> length [5,4,3,2,1]  
 	5
 	```
 
-6. reverse: reverses a list
+6. *reverse*: reverses a list
 	```
 	ghci> reverse [5,4,3,2,1]
 	[1,2,3,4,5]
 	```
 
-7. take: takes elements from the list from beginning of the list
+7. *take*: takes elements from the list from beginning of the list
 	```
 	ghci> take 3 [5,4,3,2,1]  
 	[5,4,3]  
@@ -69,7 +69,7 @@
 	[] 
 	```
 	
-8. drop: drops elements from the beginning of the list
+8. *drop*: drops elements from the beginning of the list
 	```
 	ghci> drop 3 [8,4,2,1,5,6]  
 	[1,5,6]  
@@ -79,7 +79,7 @@
 	[]  
 	```
 	
-9. maximum and minimum: does exactly for what it says
+9. *maximum* and *minimum*: does exactly for what it says
 	```
 	ghci> minimum [8,4,2,1,5,6]  
 	1  
@@ -87,7 +87,7 @@
 	9   
 	```
 	
-10. sum and product:  does exactly what it says
+10. *sum* and *product*:  does exactly what it says
 	```
 	ghci> sum [5,2,1,6,3,2,5,7]  
 	31  
