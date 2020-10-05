@@ -21,3 +21,8 @@ goSecondLast (x:xs) = reverse (x:xs) !! 1
 goGetLength :: [Int] -> Int
 goGetLength [] = 0
 goGetLength (x:xs) = length (x:xs)
+
+goReverse :: [x] -> [x]
+goReverse [] = []
+goReverse [x] = [x]
+goReverse (x:xs) = reverse xs ++ [x]
