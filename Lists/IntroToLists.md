@@ -29,14 +29,14 @@
 	
 2. **tail**: chops of the head and returns rest of elemets
 	```
-	ghci> last [5,4,3,2,1]  
-	1
+	ghci> tail [5,4,3,2,1]  
+	[4,3,2,1]   
 	```
 	
 3. **last**: takes a list and returns the last element
 	```
-	ghci> head [5,4,3,2,1]  
-	5   
+	ghci> last [5,4,3,2,1]  
+	1
 	```
 	
 4. **init**: takes a list and return everything but the last element
