@@ -29,8 +29,8 @@
 	
 2. tail: chops of the head and returns rest of elemets
 	```
-	ghci> tail [5,4,3,2,1]
-	[4,3,2,1]
+	ghci> last [5,4,3,2,1]  
+	1
 	```
 	
 3. last: takes a list and returns the last element
