@@ -7,7 +7,7 @@ To execute a functitons:
 * Make a fucntion ex demo.hs
 * In the shell with ghci compiler activated run
   ```
-  :l demo
+  :l demo.hs
   ```
 * Call the function (addMe is a function inside demo.hs)
   ```
