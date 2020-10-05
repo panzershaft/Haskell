@@ -17,3 +17,7 @@ goSecondLast :: [Int] -> Int
 goSecondLast [] = 0
 goSecondLast [x] = 0
 goSecondLast (x:xs) = reverse (x:xs) !! 1
+
+goGetLength :: [Int] -> Int
+goGetLength [] = 0
+goGetLength (x:xs) = length (x:xs)
