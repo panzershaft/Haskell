@@ -1,4 +1,2 @@
-secondLast :: [Int] -> Int
-secondLast [] = 0
-secondLast [x] = 0
+secondLast :: [x] -> x
 secondLast (x:xs) = reverse (x:xs) !! 1

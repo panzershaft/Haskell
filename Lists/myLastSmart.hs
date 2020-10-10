@@ -1,2 +1,2 @@
-myLastSmart :: [Int] -> Int
+myLastSmart :: [x] -> x
 myLastSmart = last
