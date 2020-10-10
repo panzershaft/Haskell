@@ -96,3 +96,9 @@
 	ghci> product [1,2,5,6,7,9,2,0]  
 	0   
 	```
+
+11. **elem**: takes a thing and a list of things and tells us if 	 that thing is an element of the list.
+	```
+	ghci> 4 `elem` [3,4,5,6]
+	True
+	```
